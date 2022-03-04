@@ -128,33 +128,19 @@ img{
     
 }
 
-.input{
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.isim .input{
     display: flex;
     justify-content: space-around;
-}
+    height: 20px;
+} 
 
-.horizontal-align {
+.iletisim{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.horizontal-align-left {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-}
-
-.width-50 {
-    width: 50%;
-}
-
-.padding-bottom {
-    margin-bottom: 30px;
-}
-
-#adSoyad{
-    margin-left: 16px;
+    justify-content: center;
 }
